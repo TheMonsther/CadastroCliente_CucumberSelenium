@@ -62,6 +62,8 @@ namespace CadastroCliente_SpecFlowSelenium.Steps
             {
                 if (cadastroCliente.ValidaCadastro()) Debug.Assert(true);
             }
+
+            driver.Close();
         }
     }
 }
